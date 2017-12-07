@@ -1,0 +1,104 @@
+.mint-header{
+    background-color: red;
+  }
+  .mintui{
+    font-size:34px;
+  }
+  .wawa_sum {
+font-size: 14px;
+padding-left:47px;
+background-color: #f2f2f2;
+/* float: left; */
+  }
+  .num{
+    font-weight:bold;
+    font-size: 20px;
+    padding-left:48px;
+    /* float: left; */
+    background-color: #f2f2f2;
+    padding-bottom:24px;
+   
+  }
+  .num a{
+    text-decoration:none;
+    display:inline-block;
+    width: 97px;
+    line-height: 27px;
+    background-color:#ffff00;
+    border-radius: 45px;
+    font-size: 12px;
+    color:#33432b;
+    text-align: center;
+    // float: right;
+    margin-left:64px;
+    font-weight: bold;
+
+
+  }
+
+  .num span{
+    font-weight: bold;
+  }
+  .header span i{
+    font-size: 40px;
+    
+   
+}
+.header{
+    position: relative;
+    background:#f2f2f2;
+
+    // line-height:44px 
+    #wawa{
+        position: absolute;
+        top:50%;
+        transform: translate(0,-50%)
+    }  
+    p{
+      
+      float: right;
+      padding:2px 1px;
+      border:1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      position: absolute;
+      top:50%;
+      right:0px;
+      transform: translate(0,-50%)
+    }
+}
+
+.my_wawa_main{
+  ul{
+    
+    li{
+        float: left;
+        width: 33.33%;
+        line-height: 31px;
+        font-size: 10px;
+        // background-color: #f2f2f2;
+        // border-top:1px solid #cccccc;
+        text-align: center;
+      a{
+        display: inline-block;
+        width: 100%;
+        border:1px solid #f2f2f2;
+        //  border-top:1px solid #cccccc;
+        .active{
+          background-color: red;
+          
+          
+        }
+        
+      }
+    }
+   
+  }
+}
+
+#wawa_sum{
+  font-size: 14px;
+  padding-left:47px;
+  background-color: #f2f2f2;
+  // background-color: #f2f2f2;
+}

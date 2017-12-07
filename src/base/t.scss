@@ -1,0 +1,132 @@
+.qusetion_type{
+
+        border:1px solid #cccccc;
+        display: -webkit-flex;
+        line-height: 31px;
+        border-radius:45px;
+        padding:0px 12px;
+        margin-top:8px;
+        span:first-child{
+             float: left;
+             flex:1;
+             
+        }
+        span:last-child{
+            float: right;
+            flex:1;
+            text-align: right;
+            color: #cccccc;
+            i{
+                color: black;
+            }
+       }
+    
+}
+
+// 联系方式
+.contact{
+    border:1px solid #cccccc;
+    display: -webkit-flex;
+    line-height: 31px;
+    border-radius:45px;
+    padding:0px 12px;
+    margin-top:8px;
+    span:first-child{
+        float: left;
+        flex:1;
+        
+   }
+   span:last-child{
+       float: right;
+       flex:1;
+       text-align: right;
+       color: #cccccc;
+       padding-right:15px;
+  }
+}
+// 文本框
+.textbox{
+    height: 103px;
+    border:1px solid #cccccc;  
+    border-radius: 10px;
+    color: #ccc;
+    margin-top:8px;
+    font-size: 14px;
+    i{
+        // margin-top:10px;
+        margin-left:10px;
+    }
+}
+.get_qusetion{
+    width: 167px;
+    line-height: 47px;
+    text-align: center;
+    margin:0 auto;
+    background-color: #ffff00;
+    margin-top:36px;
+    border-radius: 45px;
+    font-weight: bold;
+}
+// 温馨提示
+.hint{
+    font-size: 12px;
+    margin-top:20px;
+    p:last-child{
+        margin-top:5px;
+        a{
+            color: red;
+            text-decoration:underline;
+        }
+    }
+}
+
+.header span i{
+    font-size: 40px;
+    
+   
+}
+.header{
+    background-color: #f2f2f2;
+    position: relative;
+    #wawa{
+        position: absolute;
+        top:50%;
+        transform: translate(0,-50%)
+    }  
+}
+.aaa{
+    width: 200px;
+    height:200px;
+ 
+ }
+ .mint-popup{
+     border-radius:30px;
+ }
+
+ .aaa{
+     position: relative;
+
+     span{
+         img{
+            position: absolute; 
+            top:0px;
+            left:50%;
+            transform: translate(-50%,50%)
+         }
+         .ccc{
+            position: absolute; 
+            top:100px;
+            margin-top:15px;
+            width: 100%;
+          
+         }
+         p:first-child{
+            //  margin-top:10px;
+            margin-bottom: 20px;
+            text-align:center;
+            font-size: 14px;
+            display: inline-block;
+            width: 100%;
+         }
+     }
+ }

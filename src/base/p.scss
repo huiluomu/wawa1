@@ -1,0 +1,88 @@
+// 这是游戏币记录.
+.currency_record{
+      
+   .mintui{
+       font-size: 40px;
+       
+       span{
+           font-size: 16px;
+        //    line-height: 38px;
+       }
+   } 
+}
+
+// 记录的数据
+.currency_record_main{
+    ul{
+        li{
+            margin-top:7px;
+            border:1px solid red;
+            padding:7px 17px;
+            
+            display: -webkit-flex;
+          #currency_record_main_left{
+              flex:5;
+              
+              font-size: 12px;
+              p:first-child{
+                  margin-top:6px;
+              }
+          }
+            #currency_record_main_right{
+            // float:right;
+            padding-top:12px;
+            font-size: 12px;
+            flex:1;
+            p{
+                float: left;
+            }
+            p:first-child{
+                width: 13px;
+                line-height: 13px;
+                border:1px solid #ff9900;
+                border-radius: 45%;
+                background-color: #ffff00;
+                margin-right:9px;
+                
+            }
+            p:last-child{
+                color: #4fd587;
+            }
+         
+        }
+        }
+    }
+}
+#header{
+    background-color: #cccc;
+}
+.header span i{
+    font-size: 40px;
+   
+    
+   
+}
+.header{
+    position: relative;
+    #wawa{
+        position: absolute;
+        top:50%;
+        transform: translate(0,-50%)
+        
+    }  
+}
+.header span i{
+
+    font-size: 40px;
+    
+   
+}
+.header{
+    position: relative;
+// background-color: #f2f2f2;
+    #wawa{
+        position: absolute;
+        top:50%;
+        transform: translate(0,-50%)
+    }  
+}

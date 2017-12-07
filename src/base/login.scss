@@ -1,0 +1,77 @@
+.phone{
+    display: -webkit-flex;
+
+    input:first-child{
+        flex:1;
+        display: inline-block;
+        border:1px solid #ccc;
+        width:100%;
+        line-height: 36px;
+        border-radius:45px;
+        color: #cccccc;
+        font-size: 12px;
+        padding-left:20px;
+        // padding-left:22px;
+
+    }
+  
+    
+    
+}
+  // 验证码
+.yan_zheng_ma{
+    display: -webkit-flex;
+    margin-top:17px;
+    input{
+       flex:2;
+       display: inline-block;
+       line-height: 36px;
+       border-radius:45px;
+       color: #cccccc;
+       font-size: 12px;
+       border:1px solid #ccc;  
+       padding-left:20px;
+    }
+    span{
+        flex: 1;
+        display: inline-block;
+        border:1px solid black;  
+        line-height: 36px;
+        border-radius:45px;
+        color: black;
+        font-size: 12px;
+        text-align: center;
+        margin-left:10px;
+        
+    }
+}
+
+// 立即
+.h_login{
+
+    line-height: 36px;
+    text-align: center;
+    background-color: #ffff00;
+    border-radius:45px;
+    margin-top:16px;
+    
+}
+// 微信登录
+.wx_login{
+    // box-sizing:content-box;
+    box-sizing: border-box;
+  display: inline-block;
+  margin-top:25px;
+  transform: translate(125%,0);
+  a{
+    display: inline-block;
+    img{
+        margin:0 auto;
+    }
+  }
+}
+.xieyi{
+    font-size: 12px;
+    text-align: center;
+    margin-top:30px;
+}

@@ -1,0 +1,34 @@
+{
+  "seller":[  
+   
+          {
+            "subscribe": 1,
+            "openid": "o7Lp5t6n59DeX3U0C7Kric9qEx-Q",
+            "nickname": "方倍",
+            "sex": 1,
+            "language": "zh_CN",
+            "city": "深圳",
+            "province": "广东",
+            "country": "中国",
+            "headimgurl": "http://wx.qlogo.cn/mmopen/Kkv3HV30gbEZmoo1rTrP4UjRRqzsibUjT9JClPJy3gzo0NkEqzQ9yTSJzErnsRqoLIct5NdLJgcDMicTEBiaibzLn34JLwficVvl6/0",
+            "subscribe_time": 1389684286
+        }
+      ],
+
+    "goods":[
+      {
+        
+        "subscribe": 1,
+        "openid": "o7Lp5t6n59DeX3U0C7Kric9qEx-Q",
+        "nickname": "方倍",
+        "sex": 1
+      }
+    ]  
+  }
+    
+        
+  
+  
+
+
+    

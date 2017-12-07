@@ -1,0 +1,81 @@
+.message_center_mian{
+    display: -webkit-flex;
+    span{
+       flex:1;
+       text-align: center;
+       font-size: 12px; 
+       i{
+           display: inline-block;
+           width: 15px;
+           line-height: 15px;
+           background-color: red;
+           border-radius:45%;
+           color: #fff;
+       }
+    }
+    span:focus{
+        background-color: #ccc;
+    }
+   
+}
+.color{
+    background-color: #fff;
+}
+// <!-- 显示数据 -->
+.content{
+    box-sizing: content-box;
+    height:76px;
+    border-bottom:1px solid #ccc;
+    margin-top:26px;
+    // display: -webkit-flex;
+    ul{
+        li{
+            float:left;
+            width: 100%;
+             display: -webkit-flex;
+             height:76px;
+             
+            .content_left{
+                width: 25px;
+                height: 25px;
+                background-color: #ccc;
+                flex:1;
+            }
+            .content_middle{
+                flex:3;
+                #content{
+                  
+                }
+                .content_two{
+                    font-size: 12px;
+                }
+
+            }
+          .content_right{
+            flex:1;
+            width: 25px;
+            height: 25px;
+            // background-color: #ccc;
+            img {
+                width: 83px;
+                height: 70px;
+            }
+          }
+
+        }
+    }
+}
+.header span i{
+    font-size: 40px;
+    
+   
+}
+.header{
+    position: relative;
+    background:#f2f2f2;
+    #wawa{
+        position: absolute;
+        top:50%;
+        transform: translate(0,-50%)
+    }  
+}

@@ -1,0 +1,105 @@
+.mintui{
+    font-size: 40px;
+   
+    
+}
+.inventory_one{
+    overflow: hidden;
+    ul{
+        
+        li{
+            
+            float: left;
+            .img{
+             
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                border: 1px solid red;
+            }
+            div{
+                display: inline-block;
+                p{
+                    display: inline-block;
+                }
+            }
+            .btn{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                border: 1px solid red;
+            }
+            
+        }
+    }
+}
+
+
+// 第二层
+.inventory_one{
+     display: flex;
+     border-bottom: 1px solid #ccc;
+    .inventory_one_left{
+        display: inline-block;
+        flex:3;
+        // background-color: red;
+        padding:11px 13px;
+        p{
+            font-size: 10px;
+            display: inline-block;
+            
+        }
+    }
+    i{
+       width: 1px;
+       height: 50px;
+       background-color: #ccc;
+       margin-top:12px; 
+    }
+    .inventory_one_right{
+        display: inline-block;
+        flex:1;
+        // background-color: pink;
+        padding:11px 13px;
+        
+        p{
+            font-size: 10px;
+        }
+        p:last-child{
+            font-size: 14px;
+            font-weight: bold;
+            margin-top:17px;
+
+        }
+    }
+}
+
+// 局号
+.inventory_two{
+    font-size: 10px;
+   
+    border-bottom:1px solid #ccc;
+
+    span:first-child{
+        float: left;
+    }
+    span:last-child{
+          float:right;
+    }
+    span{
+        display: inline-block;
+        height:30px;
+        line-height: 30px;
+    }
+}
+.fa_btn{
+    width: 166px;
+    line-height: 66px;
+    text-align: center;
+    background-color: #ffff00;
+    font-weight: bold;
+    font-size: 18px;
+    margin:0 auto;
+    margin-top:21px;
+    border-radius: 45px;
+}
